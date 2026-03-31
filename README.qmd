@@ -13,7 +13,7 @@ n <- 200000
 
 # Creating a network-based SEIR model
 model_seir <- ModelSEIR(
-    name = "COVID-19", prevalence = 10/n,
+    name = "COVID-19", prevalence = 1000/n,
     transmission_rate = 0.05,
     recovery_rate = 1/7, incubation_days = 4
     )
